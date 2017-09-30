@@ -40,11 +40,11 @@ function player() {
     if (playerX <= 0) {
         playerX = 0;
     }
-    if (playerY > 600) {
-        playerY = 600 - playerSize;
+    if (playerY > 500) {
+        playerY = 500 ;
     }
-    if (playerX > 1200) {
-        playerX = 1200 - playerSize;
+    if (playerX > 1100) {
+        playerX = 1100 ;
     }
 }
 
